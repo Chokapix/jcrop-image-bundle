@@ -1,0 +1,22 @@
+{
+  "name": "chokapix/jcrop-image-bundle",
+  "type": "symfony-bundle",
+  "description": "Chokapix JcropImageBundle",
+  "keywords": ["Jcrop", "image", "upload", "bundle", "crop"],
+  "authors": [
+    {
+      "name": "Thomas Choquet",
+      "email": "thomas.choquet.pro@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "twig/twig": "*",
+    "doctrine/doctrine-bundle": "*"
+  },
+  "autoload": {
+    "psr-0": { "Chokapix\\JcropImageBundle": "" }
+  },
+  "target-dir": "Chokapix/JcropImageBundle",
+  "minimum-stability": "dev"
+}

@@ -1,0 +1,3 @@
+chokapix_jcrop_image_homepage:
+    path:     /
+    defaults: { _controller: ChokapixJcropImageBundle:Default:index }
